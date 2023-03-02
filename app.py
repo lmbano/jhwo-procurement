@@ -439,31 +439,4 @@ add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
     ("Email", "Home phone", "Mobile phone")
 )
-# my_bar = st.progress(0)
 
-# for percent_complete in range(100):
-#     time.sleep(0.1)
-#     my_bar.progress(percent_complete + 1)
-# # Using "with" notation
-# with st.sidebar:
-#     add_radio = st.radio(
-#         "Choose a shipping method",
-#         ("Standard (5-15 days)", "Express (2-5 days)")
-#     )
-
-# with st.spinner('Wait for it...'):
-#     time.sleep(5)
-# st.success('Done!')
-
-
-# with st.form("my_form1"):
-#     st.write("Inside the form1")
-#     slider_val = st.slider("Form slider")
-#     checkbox_val = st.checkbox("Form checkbox")
-
-#     # Every form must have a submit button.
-#     submitted = st.form_submit_button("Submit")
-#     if submitted:
-#         st.write("slider", slider_val, "checkbox", checkbox_val)
-
-# st.write("Outside the form1")
