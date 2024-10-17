@@ -1,5 +1,5 @@
-streamlit==1.10.0
-requests==2.27.1
-streamlit-lottie==0.0.3
-imageio==2.3.0
-pandas==1.1.5
+streamlit
+requests
+streamlit-lotti
+imageio
+pandas
